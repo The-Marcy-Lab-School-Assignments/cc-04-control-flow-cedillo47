@@ -25,7 +25,7 @@ function fizzBuzz(number){
         } else if ( i % 3 === 0){
             answer.push("fiz")
         } else {
-            answer.push(i)
+            answer.push(i.toString())
         }
     
         
